@@ -18,10 +18,6 @@ body {
     text-align: center;
 }
 
-h1 {
-    color: #ff69b4;
-}
-
 a {
     color: #ff69b4;
     text-decoration: none;
@@ -59,24 +55,29 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 800px;
+    text-align: left;
 }
 
 h1, h2, h3 {
     color: #ff69b4;
+    margin-bottom: 10px;
 }
 
 h1 {
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #ff69b4;
+    padding-bottom: 5px;
+    margin-top: 30px;
 }
 
 h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    font-size: 1.5em;
+    margin-top: 20px;
 }
 
 .cv-section {
