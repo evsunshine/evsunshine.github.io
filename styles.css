@@ -18,6 +18,27 @@ body {
     text-align: center;
 }
 
+.cv-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.literature-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+}
+
+
 a {
     color: #ff69b4;
     text-decoration: none;
@@ -45,17 +66,6 @@ button {
 
 button:hover {
     background-color: #ff69b4;
-}
-
-/* New styles for the CV page */
-.cv-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    max-width: 800px;
-    text-align: left;
 }
 
 h1, h2, h3 {
@@ -95,8 +105,9 @@ p {
 
 /* Stylish back button */
 .back-button {
-    display: inline-block;
-    margin-top: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
     padding: 10px 20px;
     background-color: #ff69b4;
     color: white;
