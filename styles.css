@@ -12,6 +12,9 @@ body {
 }
 
 .container {
+    position: fixed;
+    top: 100px;
+    left: 100px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
